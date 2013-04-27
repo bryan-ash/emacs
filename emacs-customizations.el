@@ -14,6 +14,7 @@
  '(make-backup-files nil)
  '(ns-command-modifier (quote meta))
  '(scroll-bar-mode nil)
+ '(show-paren-mode t)
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
