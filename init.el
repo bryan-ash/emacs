@@ -6,10 +6,8 @@
 (load (expand-file-name "coffee-mode.el" my-emacs-init-dir))
 (load (expand-file-name "scss-mode.el" my-emacs-init-dir))
 (load (expand-file-name "haml-mode.el" my-emacs-init-dir))
+(load (expand-file-name "smex.el" my-emacs-init-dir))
 
-(setq whitespace-action '(auto-cleanup)) ;; automatically clean up bad whitespace
-(setq whitespace-style '(trailing space-before-tab indentation empty space-after-tab)) ;; only show bad whitespace
- 
 ;; Set up 'custom' system
 (setq custom-file (expand-file-name "emacs-customizations.el" my-emacs-config-dir))
 (load custom-file)

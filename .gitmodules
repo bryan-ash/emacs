@@ -7,3 +7,6 @@
 [submodule "vendor/haml-mode"]
 	path = vendor/haml-mode
 	url = git://github.com/nex3/haml-mode.git
+[submodule "vendor/smex"]
+	path = vendor/smex
+	url = git://github.com/nonsequitur/smex.git
