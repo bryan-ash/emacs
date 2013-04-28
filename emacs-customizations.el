@@ -7,7 +7,8 @@
  '(coffee-args-compile (quote ("-c" "--bare")))
  '(coffee-command "coffee")
  '(coffee-tab-width 2)
- '(cua-enable-cua-keys t)
+ '(cua-enable-cua-keys nil)
+ '(cua-mode t nil (cua-base))
  '(desktop-save-mode t)
  '(global-auto-revert-mode t)
  '(ido-enable-flex-matching t)
@@ -16,6 +17,7 @@
  '(make-backup-files nil)
  '(ns-command-modifier (quote meta))
  '(scroll-bar-mode nil)
+ '(scss-output-directory "tmp/css")
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 (custom-set-faces
