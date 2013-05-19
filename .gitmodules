@@ -10,3 +10,6 @@
 [submodule "vendor/smex"]
 	path = vendor/smex
 	url = git://github.com/nonsequitur/smex.git
+[submodule "vendor/rinari"]
+	path = vendor/rinari
+	url = git://github.com/eschulte/rinari.git
