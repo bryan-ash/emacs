@@ -16,6 +16,7 @@
  '(ido-enable-flex-matching t)
  '(ido-mode (quote both) nil (ido))
  '(initial-frame-alist (quote ((top . 90) (left . 400) (width . 127) (height . 40))))
+ '(js2-bounce-indent-p t)
  '(make-backup-files nil)
  '(ns-command-modifier (quote meta))
  '(scroll-bar-mode nil)
