@@ -19,6 +19,7 @@
  '(js2-bounce-indent-p t)
  '(make-backup-files nil)
  '(ns-command-modifier (quote meta))
+ '(revert-without-query (quote ("\\.log$")))
  '(scroll-bar-mode nil)
  '(scss-output-directory "tmp/css")
  '(show-paren-mode t)
