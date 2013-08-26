@@ -19,6 +19,7 @@
  '(js2-bounce-indent-p t)
  '(make-backup-files nil)
  '(ns-command-modifier (quote meta))
+ '(package-archives (quote (("gnu" . "http://elpa.gnu.org/packages/") ("marmalade" . "http://marmalade-repo.org/packages/"))))
  '(revert-without-query (quote ("\\.log$")))
  '(scroll-bar-mode nil)
  '(scss-output-directory "tmp/css")
