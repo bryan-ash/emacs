@@ -15,6 +15,7 @@
  '(global-auto-revert-mode t)
  '(ido-enable-flex-matching t)
  '(ido-mode (quote both) nil (ido))
+ '(indent-tabs-mode nil)
  '(initial-frame-alist (quote ((top . 90) (left . 400) (width . 127) (height . 40))))
  '(js-indent-level 2)
  '(js2-basic-offset 2)
