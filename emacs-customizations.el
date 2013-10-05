@@ -13,6 +13,7 @@
  '(cua-mode t nil (cua-base))
  '(desktop-save-mode t)
  '(global-auto-revert-mode t)
+ '(global-whitespace-mode t)
  '(ido-enable-flex-matching t)
  '(ido-mode (quote both) nil (ido))
  '(indent-tabs-mode nil)
@@ -27,10 +28,13 @@
  '(scroll-bar-mode nil)
  '(scss-output-directory "tmp/css")
  '(show-paren-mode t)
- '(tool-bar-mode nil))
+ '(tool-bar-mode nil)
+ '(whitespace-display-mappings (quote ((tab-mark 9 [187 9] [92 9]))))
+ '(whitespace-style (quote (face tabs trailing lines space-before-tab newline))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:background "black" :foreground "LightGoldenrod" :weight normal :height 140 :width normal :family "apple-monaco")))))
+ '(default ((t (:background "black" :foreground "LightGoldenrod" :weight normal :height 140 :width normal :family "apple-monaco"))))
+ '(whitespace-tab ((t (:background "red" :foreground "darkgray")))))
