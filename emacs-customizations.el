@@ -30,7 +30,8 @@
  '(show-paren-mode t)
  '(tool-bar-mode nil)
  '(whitespace-display-mappings (quote ((tab-mark 9 [187 9] [92 9]))))
- '(whitespace-style (quote (face tabs trailing lines space-before-tab newline))))
+ '(whitespace-line-column 120)
+ '(whitespace-style (quote (face tabs trailing space-before-tab newline lines))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
