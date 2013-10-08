@@ -5,4 +5,4 @@
 (add-to-list 'auto-mode-alist '("\\.exs$" . elixir-mode))
 
 (add-hook 'elixir-mode-hook
-          (lambda () (modify-syntax-entry ?_ " ")))
+          (lambda () (modify-syntax-entry ?_ "_")))
