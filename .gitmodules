@@ -13,6 +13,3 @@
 [submodule "vendor/rinari"]
 	path = vendor/rinari
 	url = git://github.com/eschulte/rinari.git
-[submodule "vendor/emacs-elixir"]
-	path = vendor/emacs-elixir
-	url = https://github.com/elixir-lang/emacs-elixir
