@@ -3,6 +3,3 @@
 
 (add-to-list 'auto-mode-alist '("\\.ex$" . elixir-mode))
 (add-to-list 'auto-mode-alist '("\\.exs$" . elixir-mode))
-
-(add-hook 'elixir-mode-hook
-          (lambda () (modify-syntax-entry ?_ "_")))
