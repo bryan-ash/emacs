@@ -349,7 +349,7 @@
    `(,(concat "^\\s *\\<" (regexp-opt elixir-mode-define-names t) "\\>\\s +\\([^( \t\n]+\\)") 2 font-lock-function-name-face)
 
    ;; keywords:
-   `(,(concat "\\<" (regexp-opt elixir-mode-keyword-names t) "\\>") . font-lock-keyword-face)
+   `(,(concat "[^_:]\\<" (regexp-opt elixir-mode-keyword-names t) "\\>[^_:]") . font-lock-keyword-face)
 
    ;; % Sigils
    `(,(concat "\\<%" (regexp-opt elixir-mode-sigils t) "\\>") . font-lock-builtin-face)

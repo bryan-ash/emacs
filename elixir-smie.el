@@ -12,10 +12,7 @@
 
 (defvar elixir-mode-syntax-table
   (let ((elixir-mode-syntax-table (make-syntax-table)))
-
-    ;; Note that ?_ might be better as class "_", but either seems to
-    ;; work:
-    (modify-syntax-entry ?_ "w" elixir-mode-syntax-table)
+    (modify-syntax-entry ?_ "_" elixir-mode-syntax-table)
     (modify-syntax-entry ?? "w" elixir-mode-syntax-table)
 
     (modify-syntax-entry ?' "\"" elixir-mode-syntax-table)
