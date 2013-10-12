@@ -374,7 +374,7 @@
    '("\\<\\(true\\|false\\|nil\\)\\>" . font-lock-reference-face)
 
    ;; atoms, generic
-   '("[@:]\\w*\\|\\w*:\\s-" . font-lock-reference-face))
+   '("[@:]\\(\\w\\|_\\)+\\|\\w*:\\s-" . font-lock-reference-face))
   "Highlighting for Elixir mode.")
 
 (defun elixir-mode-cygwin-path (expanded-file-name)
