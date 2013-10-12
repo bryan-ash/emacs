@@ -352,7 +352,7 @@
    '("\\<\\(true\\|false\\|nil\\)\\>" . font-lock-reference-face)
 
    ;; keywords:
-   `(,(concat "[^_:]\\<" (regexp-opt elixir-mode-keyword-names t) "\\>[^_:]") . font-lock-keyword-face)
+   `(,(concat "[^_:]?\\<" (regexp-opt elixir-mode-keyword-names t) "\\>[^_:]") . font-lock-keyword-face)
 
    ;; % Sigils
    `(,(concat "\\<%" (regexp-opt elixir-mode-sigils t) "\\>") . font-lock-builtin-face)
