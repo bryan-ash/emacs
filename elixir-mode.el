@@ -348,6 +348,9 @@
    ;; methods:
    `(,(concat "^\\s *\\<" (regexp-opt elixir-mode-define-names t) "\\>\\s +\\([^( \t\n]+\\)") 2 font-lock-function-name-face)
 
+   ;; atoms, boolean:
+   '("\\<\\(true\\|false\\|nil\\)\\>" . font-lock-reference-face)
+
    ;; keywords:
    `(,(concat "[^_:]\\<" (regexp-opt elixir-mode-keyword-names t) "\\>[^_:]") . font-lock-keyword-face)
 
@@ -369,9 +372,6 @@
 
    ;; regexes:
    '("-[Rr].*[ \n\t]" . font-lock-constant-face)
-
-   ;; atoms, boolean:
-   '("\\<\\(true\\|false\\|nil\\)\\>" . font-lock-reference-face)
 
    ;; atoms, generic
    '("[@:]\\(\\w\\|_\\)+\\|\\(\\w\\|_\\)+:\\s-" . font-lock-reference-face))
