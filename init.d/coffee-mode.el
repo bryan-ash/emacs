@@ -1,6 +1,7 @@
 (add-to-list 'load-path (expand-file-name "coffee-mode" my-emacs-vendor-dir))
 (autoload 'coffee-mode "coffee-mode")
 (add-to-list 'auto-mode-alist '("\\.coffee$" . coffee-mode))
+(add-to-list 'auto-mode-alist '("\\.coffee.erb$" . coffee-mode))
 
 (defun coffee-custom ()
   "coffee-mode-hook"
