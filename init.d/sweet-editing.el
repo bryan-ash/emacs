@@ -1,4 +1,5 @@
 (define-key global-map (kbd "C-S-k") 'kill-whole-line)
+(define-key global-map (kbd "C-x p") 'previous-multiframe-window)
 
 (defun duplicate-line()
   "Duplicate the current line"
@@ -30,5 +31,7 @@
 
 (defun do-return ()
   (funcall (or (local-key-binding (kbd "<return>")) (key-binding (kbd "RET")))))
+
+(global-set-key "\C-x\C-b" 'buffer-menu)
 
 (provide 'sweet-editing)
