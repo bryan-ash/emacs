@@ -9,6 +9,7 @@
  '(coffee-args-compile (quote ("-c" "--bare")))
  '(coffee-command "coffee")
  '(coffee-tab-width 2)
+ '(css-indent-offset 2)
  '(cua-enable-cua-keys nil)
  '(cua-mode t nil (cua-base))
  '(desktop-save-mode t)
@@ -26,11 +27,14 @@
  '(package-archives (quote (("gnu" . "http://elpa.gnu.org/packages/") ("marmalade" . "http://marmalade-repo.org/packages/"))))
  '(revert-without-query (quote ("\\.log$")))
  '(scroll-bar-mode nil)
+ '(scss-compile-at-save nil)
  '(scss-output-directory "tmp/css")
+ '(send-mail-function (quote smtpmail-send-it))
  '(show-paren-mode t)
+ '(tab-width 2)
  '(tool-bar-mode nil)
  '(whitespace-display-mappings (quote ((tab-mark 9 [187 9] [92 9]))))
- '(whitespace-line-column 120)
+ '(whitespace-line-column 125)
  '(whitespace-style (quote (face tabs trailing space-before-tab newline lines))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
