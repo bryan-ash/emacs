@@ -7,4 +7,3 @@ Installation
     cd ~
     git clone git://github.com/bryan-ash/emacs.git
     ln -s emacs .emacs.d
-    
